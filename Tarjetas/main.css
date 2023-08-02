@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    padding: 15px 15px 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #b549fdb4 2%, #5363f3c9);
+    border-radius: 20px;
+    color: aliceblue;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.puntos {
+    margin-top: -10px;
+    align-self: flex-end;
+    font-size: 30px;
+    z-index: 3;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.card-img {
+    width: 100%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-body-item {
+    display: flex;
+}
+
+.card-body h5,
+.card-body p {
+    margin: 0%;
+}
+
+.card-body .name {
+    padding-top: 3px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.card-title{
+    font-size: 16px;
+}
+
+.datos {
+    display: flex;
+    font-size: 12px;
+}
+
+.datos div {
+    margin-right: 15px;
+    text-align: center;
+}
+
+.ranking {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+.ranking h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.texto-medio {
+    padding: 5px;
+}
+.circulo{
+    position: absolute;
+    height: 215px;
+    width: 180px;
+    background-color: black;
+    border-radius: 50%;
+    right: -75px;
+    bottom: -65px;
+    z-index: 1;
+    background: linear-gradient(to right, #b549fdb4 2%, #5363f3c9);
+}
+
+.nuevo {
+
+background: linear-gradient(to bottom, #f35ff8e1 2%, #f8fc19b0);
+
+}
+
+.pasante {
+
+background: linear-gradient(to bottom, #f8aa0094 2%, #fbfd80);
+
+}
+
+.reciente {
+
+background: linear-gradient(to bottom, #064fec94 2%, #19dafc);
+
+}
+
+
+.medio {
+
+background: linear-gradient(to bottom, #e7191994 2%, #eb058bc9);
+
+}
+
+.avanzado {
+
+background: linear-gradient(to bottom, #be16f1b4 2%, #19fce9b0);
+
+}
+
+.general {
+
+background: linear-gradient(to bottom, #5feef8b4 2%, #87ee27cc);
+
+}
+.superior {
+
+background: linear-gradient(to bottom, #f35ff8b4 2%, #3358fc8f);
+
+}
+.pro 
+{
+
+background: linear-gradient(to bottom, #d100e4b4 2%, #7019fcbd);
+
+}
